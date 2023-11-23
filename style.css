@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * ───────────────────────────────────────────────── CENTERING ELEMENTS, BGIMG ─────
+ */
+
+    
+body{
+    text-align: center;
+    background-image: url("https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/superover-bg.png");
+    color: aliceblue;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+
+}
+
+/* ──────────────────────────────────────────────────────────────────────────────── */
+
+
+#logo{
+    height: 4rem;
+    margin: 2rem;
+}
+
+
+.score{
+    margin: 10rem;
+    height: 24rem;
+    width: 24vw;
+    border-radius: 15px;
+    
+ 
+}
+
+.buttons{
+    margin: 3rem;
+    margin-top: 20px;
+    height: 9rem;
+}
+
+/*
+ * ───────────────────────────────────────────── MAKING BOXES FOR IND AND PAK ─────
+ */
+
+    
+#team1{
+    background-color: #005fa2;
+    display: inline-block;
+    margin-left: 5rem;
+   
+}
+
+#team2{
+    background-color: #1fa83d;
+    display: inline-block;
+    
+    
+}
+
+h1{
+    letter-spacing: 5px;
+    font-size: 5rem;
+    margin-top: 2rem;
+}
+
+.ball{
+    border-radius: 25px;
+    background-color:white;
+    color: black;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: white solid;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.steelBalls{
+    margin-top: 4rem;
+}
+
+.scoreboard{
+    margin-top: 2rem;
+    font-size: 3rem;
+    font-weight: bolder;
+   
+}
